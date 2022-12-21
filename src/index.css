@@ -1,13 +1,9 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import "@vkontakte/vkui/dist/vkui.css";
+/* @import "@vkontakte/vkui/dist/components.css"; 
+ @import "@vkontakte/vkui-tokens/themes/vkCom/cssVars/declarations/onlyVariables.css";
+@import "@vkontakte/vkui-tokens/themes/vkComDark/cssVars/declarations/onlyVariablesLocal.css"; */
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* :root {
+	--vkui--color_background: red;
+    --vkui--color_text_primary: red;
+} */

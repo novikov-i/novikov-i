@@ -59,7 +59,7 @@ const App = () => {
 };
 
 ReactDOM.render(
-  <ConfigProvider appearance="dark">
+  <ConfigProvider appearance="dark" isWebView platform="vkcom">
     <AdaptivityProvider>
       <App />
     </AdaptivityProvider>

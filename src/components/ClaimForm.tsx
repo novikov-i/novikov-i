@@ -96,7 +96,7 @@ export const ClaimForm = ({ setActivePanel }: Props) => {
           />
         </FormItem>
 
-        <FormItem top="Дата выезда">
+        <FormItem top="Дата выезда (test)">
           <DatePicker
             min={{ day: 1, month: 1, year: 2000 }}
             max={{ day: 1, month: 1, year: new Date().getFullYear() }}
@@ -112,7 +112,7 @@ export const ClaimForm = ({ setActivePanel }: Props) => {
         <FormItem top="Дата подписания КС">
           <DatePicker
             min={{ day: 1, month: 1, year: 2000 }}
-            max={{ day: 1, month: 1, year: new Date().getFullYear() }}
+            max={{ day: 31, month: 12, year: new Date().getFullYear() }}
             onDateChange={(value) => {
               console.log(value);
             }}

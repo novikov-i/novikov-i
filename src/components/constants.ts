@@ -148,6 +148,6 @@ export const homes = [
     "Традиция 3"
 ];
 
-export const mountingTypes = ['Скрытый', 'Открытый'];
+export const mountingTypes = ['Скрытый', 'Открытый', 'Наружка'];
 
 export const appealTypes = ["ККР", "Диспетчер", "Сервисная служба"];

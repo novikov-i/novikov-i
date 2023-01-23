@@ -15,7 +15,8 @@ import {
   SimpleCell,
   FormLayout,
   FormItem,
-  Input
+  Input,
+  WebviewType
 } from "@vkontakte/vkui";
 
 // import Image from "@vkontakte/vkui/src/components/";
@@ -59,8 +60,8 @@ const App = () => {
 };
 
 ReactDOM.render(
-  <ConfigProvider appearance="dark" isWebView platform="vkcom">
-    <AdaptivityProvider>
+  <ConfigProvider platform="vkcom" appearance="dark">
+    <AdaptivityProvider hasPointer>
       <App />
     </AdaptivityProvider>
   </ConfigProvider>,
